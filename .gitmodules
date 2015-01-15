@@ -1,0 +1,3 @@
+[submodule "ThirdParty/gists/Mixin"]
+	path = ThirdParty/gists/Mixin
+	url = https://gist.github.com/5776bfec1e97b542d38d.git
