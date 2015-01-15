@@ -50,7 +50,18 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="TestInstances\ComplexType.cs" />
+    <Compile Include="TestInstances\Disposable.cs" />
+    <Compile Include="TestInstances\Dummy.cs" />
+    <Compile Include="TestInstances\DummyWrapper.cs" />
+    <Compile Include="TestInstances\IDummy.cs" />
+    <Compile Include="TestInstances\IInterfaceA.cs" />
+    <Compile Include="TestInstances\IInterfaceB.cs" />
+    <Compile Include="TestInstances\IInterfaceC.cs" />
+    <Compile Include="TestInstances\ImplementationA.cs" />
+    <Compile Include="TestInstances\ImplementationB.cs" />
+    <Compile Include="MixinTests.cs" />
+    <Compile Include="ObjectExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
