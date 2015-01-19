@@ -72,6 +72,10 @@ namespace Whisk.Tests
             Assert.AreEqual("You", mixin.SayMeWithComplexArgStringRet(new ComplexType()));
             Assert.AreEqual("You", mixin.SayMeWithTwoArguments("a", "b"));
             Assert.AreEqual("You", mixin.SayMeWithMixedPrimitiveAndComplexArguments("ad", new ComplexType(), 2));
+            mixin.SayMeWithStringArgVoid("me");
+            mixin.SayMeWithComplexArgVoid(new ComplexType());
+            mixin.SayMeWithTwoArgumentsVoid("1","2");
+            mixin.SayMeWithMixedPrimitiveAndComplexArgumentsVoid("ad", new ComplexType(), 1);
         }
     }
 }

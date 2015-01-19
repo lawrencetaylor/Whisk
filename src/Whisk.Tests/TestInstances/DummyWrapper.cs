@@ -44,5 +44,25 @@ namespace Whisk.Tests
         {
             return _dummy.SayMeWithMixedPrimitiveAndComplexArguments(a1, a2, a3);
         }
+
+        public void SayMeWithStringArgVoid(string me)
+        {
+            _dummy.SayMeWithStringArgVoid(me);
+        }
+
+        public void SayMeWithComplexArgVoid(ComplexType me)
+        {
+            _dummy.SayMeWithComplexArgVoid(me);
+        }
+
+        public void SayMeWithTwoArgumentsVoid(string a1, string a2)
+        {
+            _dummy.SayMeWithTwoArgumentsVoid(a1,a2);
+        }
+
+        public void SayMeWithMixedPrimitiveAndComplexArgumentsVoid(string a1, ComplexType a2, int a3)
+        {
+            _dummy.SayMeWithMixedPrimitiveAndComplexArgumentsVoid(a1, a2, a3);
+        }
     }
 }

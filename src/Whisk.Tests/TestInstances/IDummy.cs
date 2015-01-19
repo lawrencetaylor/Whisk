@@ -9,5 +9,10 @@ namespace Whisk.Tests
         string SayMeWithComplexArgStringRet(ComplexType me);
         string SayMeWithTwoArguments(string a1, string a2);
         string SayMeWithMixedPrimitiveAndComplexArguments(string a1, ComplexType a2, int a3);
+        void SayMeWithStringArgVoid(string me);
+        void SayMeWithComplexArgVoid(ComplexType me);
+        void SayMeWithTwoArgumentsVoid(string a1, string a2);
+        void SayMeWithMixedPrimitiveAndComplexArgumentsVoid(string a1, ComplexType a2, int a3);
+
     }
 }

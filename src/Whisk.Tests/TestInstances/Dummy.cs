@@ -36,5 +36,25 @@ namespace Whisk.Tests
         {
             return "You";
         }
+
+        public void SayMeWithStringArgVoid(string me)
+        {
+            
+        }
+
+        public void SayMeWithComplexArgVoid(ComplexType me)
+        {
+           
+        }
+
+        public void SayMeWithTwoArgumentsVoid(string a1, string a2)
+        {
+           
+        }
+
+        public void SayMeWithMixedPrimitiveAndComplexArgumentsVoid(string a1, ComplexType a2, int a3)
+        {
+           
+        }
     }
 }
